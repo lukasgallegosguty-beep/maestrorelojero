@@ -1,0 +1,143 @@
+{
+  "id": "n08_rolex_3135",
+  "orden": 8,
+  "dificultad": 8,
+  "titulo": "Presión de las profundidades",
+  "reloj": {
+    "nombre": "Reloj de buceo automático de alta gama con fecha",
+    "tipo": "Pulsera, caja hermética con corona enroscada",
+    "ilustracion": "Esquemática propia; sin reproducir el diseño de caja, bisel ni esfera de ningún modelo"
+  },
+  "casa": "Rolex (Ginebra, Suiza)",
+  "calibre": "Rolex 3135",
+  "anio": 1988,
+  "epoca": "Fines del siglo XX",
+  "specs": {
+    "diametro_mm": 28.5,
+    "lineas": "12½'''",
+    "alto_mm": 6.0,
+    "rubies": 31,
+    "frecuencia_ah": 28800,
+    "reserva_h": 48,
+    "cuerda": "Automática bidireccional y manual",
+    "stop_segundos": true,
+    "certificacion": "Cronómetro (COSC)",
+    "funciones": ["Horas","Minutos","Segundero central","Fecha instantánea con corrección rápida"]
+  },
+  "historia": "Calibre presentado en 1988 y usado durante décadas en relojes de buceo y de vestir. Puente de volante de doble apoyo, volante libre regulado con tuercas Microstella y espiral con curva Breguet.",
+  "sabias_que": [
+    "Sus ruedas inversoras son rojas: una seña de identidad de la casa.",
+    "Para regular, se giran por igual las tuercas Microstella opuestas; si no, el volante pierde el equilibrio.",
+    "La familia 3100 estrenó el puente de volante de doble apoyo en lugar del coq de un solo brazo."
+  ],
+  "cliente": {
+    "nombre": "Comandante Ricardo Pérez (R)",
+    "perfil": "Buzo táctico retirado de la Armada, Talcahuano",
+    "pedido": "No lo he servido en 15 años. Quiero que vuelva a ser cronómetro y que selle como el primer día.",
+    "plazo_dias": 7
+  },
+  "pago_base": 260000,
+  "reputacion": 18,
+  "memorice_s": 6,
+  "rot_spawn_max": 360,
+  "orientacion": {
+    "corona": 3,
+    "fecha": 3,
+    "volante_reverso": 6
+  },
+  "preensamblado": [
+    "Platina con rubíes",
+    "Mecanismo de remontoir, puesta en hora y stop"
+  ],
+  "mecanicas_nuevas": [
+    "volante_libre_microstella",
+    "puente_doble_apoyo",
+    "salto_instantaneo",
+    "tornillos_pie_esfera",
+    "cronometro"
+  ],
+  "herramientas_requeridas": [
+    "cronocomparador",
+    "llave_fondos_hermeticos",
+    "llave_microstella"
+  ],
+  "defectos": [
+    "aceite_seco",
+    "fuera_de_ritmo",
+    "junta_reseca",
+    "caja_rayada"
+  ],
+  "fuentes": [
+    "https://reference.grail-watch.com/movement/rolex-3135/",
+    "https://calibercorner.com/rolex-caliber-3135/",
+    "https://wiki.grail-watch.com/index.php/Rolex_3135"
+  ],
+  "prob_espejo": 0.25,
+  "total_piezas": 58,
+  "total_pasos": 47,
+  "tiempo_objetivo_s": 1570,
+  "lados_usados": [
+    "frente",
+    "reverso"
+  ],
+  "secuencia": [
+    {"id":"barrilete","tipo":"barrilete","lado":"reverso","x":-32,"y":-28,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":1,"forma":{"t":"rueda","r":36.5,"dientes":90,"brazos":0,"mat":"laton","estilo":"barrilete"},"paso":1},
+    {"id":"rueda_centro","tipo":"rueda_centro","lado":"reverso","x":0.0,"y":0.0,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":2,"forma":{"t":"rueda","r":31.1,"dientes":70,"brazos":5,"mat":"laton","pinon":6},"paso":2},
+    {"id":"tercera_rueda","tipo":"tercera_rueda","lado":"reverso","x":30,"y":-20,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":2,"forma":{"t":"rueda","r":32.1,"dientes":64,"brazos":5,"mat":"laton","pinon":5},"paso":3},
+    {"id":"rueda_segundos","tipo":"rueda_segundos_central","lado":"reverso","x":0.0,"y":0.0,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":3,"forma":{"t":"rueda","r":20.4,"dientes":60,"brazos":5,"mat":"laton","pinon":4},"paso":4},
+    {"id":"rueda_escape","tipo":"rueda_escape","lado":"reverso","x":14,"y":20,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":2,"forma":{"t":"rueda","r":11,"dientes":15,"brazos":5,"mat":"acero","pinon":4,"estilo":"escape"},"paso":5},
+    {"id":"puente_barrilete","tipo":"puente_barrilete","lado":"reverso","x":-48.6,"y":-27.8,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":4,"forma":{"t":"puente","poly":[[-26.4,23.8],[-9.9,-29.3],[-5.9,-34.0],[0.1,-35.1],[5.5,-32.0],[28.8,-4.6],[28.8,4.2],[23.1,11.1],[-15.9,32.7],[-21.9,31.6],[-25.9,26.9]],"mat":"rodio","deco":"cotes","rubies":[[16.6,-0.2]],"agujeros":[[-4.9,20.3],[8.8,-17.5]]},"cubre":["barrilete"],"paso":6},
+    {"id":"puente_barrilete_t1","tipo":"tornillo","lado":"reverso","x":-53.5,"y":-7.5,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":5,"forma":{"t":"tornillo","r":5.0,"acabado":"azulado"},"variante":"tornillo_puente_barrilete","sobre":"puente_barrilete","tornillo":{"cabeza_mm":1.2,"giros":2.5,"rosca":"derecha"},"nombre":"Tornillo del puente de barrilete","paso":7},
+    {"id":"puente_barrilete_t2","tipo":"tornillo","lado":"reverso","x":-39.8,"y":-45.3,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":5,"forma":{"t":"tornillo","r":5.0,"acabado":"azulado"},"variante":"tornillo_puente_barrilete","sobre":"puente_barrilete","tornillo":{"cabeza_mm":1.2,"giros":2.5,"rosca":"derecha"},"nombre":"Tornillo del puente de barrilete","paso":7},
+    {"id":"puente_rodaje","tipo":"puente_rodaje","lado":"reverso","x":15.8,"y":-0.8,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":4,"forma":{"t":"puente","poly":[[-26.8,0.8],[-24.2,-6.2],[8.7,-28.7],[16.1,-30.0],[22.6,-26.2],[25.2,-19.2],[8.6,24.6],[3.7,30.4],[-3.7,31.7],[-10.2,27.9],[-26.1,4.6]],"mat":"rodio","deco":"cotes","rubies":[[-15.8,0.8],[14.2,-19.2],[-1.8,20.8]],"agujeros":[[14.6,-6.4],[-8.0,-8.3]]},"cubre":["rueda_centro","tercera_rueda","rueda_escape"],"paso":8},
+    {"id":"puente_rodaje_t1","tipo":"tornillo","lado":"reverso","x":30.4,"y":-7.3,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":5,"forma":{"t":"tornillo","r":5.0,"acabado":"azulado"},"variante":"tornillo_puente_rodaje","sobre":"puente_rodaje","tornillo":{"cabeza_mm":1.2,"giros":2.5,"rosca":"derecha"},"nombre":"Tornillo del puente de rodaje","paso":9},
+    {"id":"puente_rodaje_t2","tipo":"tornillo","lado":"reverso","x":7.8,"y":-9.2,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":5,"forma":{"t":"tornillo","r":5.0,"acabado":"azulado"},"variante":"tornillo_puente_rodaje","sobre":"puente_rodaje","tornillo":{"cabeza_mm":1.2,"giros":2.5,"rosca":"derecha"},"nombre":"Tornillo del puente de rodaje","paso":9},
+    {"id":"rochete","tipo":"rochete","lado":"reverso","x":-32,"y":-28,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":6,"forma":{"t":"rueda","r":22,"dientes":60,"brazos":0,"mat":"acero","estilo":"soleil"},"paso":10},
+    {"id":"rochete_t","tipo":"tornillo","lado":"reverso","x":-32,"y":-28,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":7,"forma":{"t":"tornillo","r":5.9,"acabado":"pulido"},"variante":"tornillo_rochete","sobre":"rochete","tornillo":{"cabeza_mm":1.6,"giros":2.0,"rosca":"derecha"},"nombre":"Tornillo del rochete","paso":11},
+    {"id":"rueda_corona","tipo":"rueda_corona","lado":"reverso","x":-66,"y":-4,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":6,"forma":{"t":"rueda","r":19.6,"dientes":34,"brazos":0,"mat":"acero","estilo":"soleil"},"paso":12},
+    {"id":"rueda_corona_t","tipo":"tornillo","lado":"reverso","x":-66,"y":-4,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":7,"forma":{"t":"tornillo","r":5.0,"acabado":"azulado"},"variante":"tornillo_rueda_corona","sobre":"rueda_corona","tornillo":{"cabeza_mm":1.2,"giros":2.0,"rosca":"izquierda"},"nombre":"Tornillo de la rueda de corona (rosca izquierda)","paso":13},
+    {"id":"trinquete","tipo":"trinquete","lado":"reverso","x":-50,"y":-54,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":6,"forma":{"t":"palanca","pts":[[0,0],[-6,-6],[-12,-6]],"w":4,"mat":"acero"},"nombre":"Trinquete con resorte integrado","paso":14},
+    {"id":"ancora","tipo":"ancora","lado":"reverso","x":10,"y":38,"rot":204.4,"rotImporta":true,"espejoImporta":true,"capa":4,"forma":{"t":"ancora","largo":24.2,"ancho":16},"paso":15},
+    {"id":"puente_ancora","tipo":"puente_ancora","lado":"reverso","x":16.4,"y":41.6,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":4,"forma":{"t":"puente","poly":[[-14.4,-3.6],[-12.5,-8.7],[-7.7,-11.4],[-2.4,-10.5],[13.0,-0.1],[14.6,4.4],[13.0,8.9],[8.9,11.3],[4.1,10.5],[-12.5,1.6]],"mat":"rodio","deco":"cotes","rubies":[[-6.4,-3.6]],"agujeros":[[6.8,4.7]]},"cubre":["ancora"],"paso":16},
+    {"id":"puente_ancora_t1","tipo":"tornillo","lado":"reverso","x":23.2,"y":46.3,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":5,"forma":{"t":"tornillo","r":5.0,"acabado":"azulado"},"variante":"tornillo_puente_ancora","sobre":"puente_ancora","tornillo":{"cabeza_mm":1.2,"giros":2.5,"rosca":"derecha"},"nombre":"Tornillo del puente del áncora","paso":17},
+    {"id":"volante","tipo":"volante_libre","lado":"reverso","x":0.0,"y":60,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":6,"forma":{"t":"volante","r":27,"brazos":2,"espiral":"breguet","microstella":4,"mat":"glucydur"},"paso":18},
+    {"id":"puente_volante","tipo":"puente_volante_doble","lado":"reverso","x":0.0,"y":62.8,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":7,"forma":{"t":"puente","poly":[[-63.0,1.6],[-62.5,-1.5],[-60.9,-4.2],[-58.5,-6.2],[-55.6,-7.3],[-1.9,-13.6],[1.9,-13.6],[55.6,-7.3],[58.5,-6.2],[60.9,-4.2],[62.5,-1.5],[63.0,1.6],[62.5,4.7],[60.9,7.4],[58.5,9.4],[55.6,10.4],[-55.6,10.4],[-58.5,9.4],[-60.9,7.4],[-62.5,4.7]],"mat":"rodio","deco":"cotes","rubies":[[0.0,-2.8]],"agujeros":[[54.0,1.6],[-54.0,1.6]]},"cubre":["volante"],"paso":19},
+    {"id":"puente_volante_t1","tipo":"tornillo","lado":"reverso","x":54.0,"y":64.3,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":8,"forma":{"t":"tornillo","r":5.0,"acabado":"azulado"},"variante":"tornillo_puente_volante","sobre":"puente_volante","tornillo":{"cabeza_mm":1.2,"giros":2.0,"rosca":"derecha"},"nombre":"Tornillo del puente de volante","paso":20},
+    {"id":"puente_volante_t2","tipo":"tornillo","lado":"reverso","x":-54.0,"y":64.3,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":8,"forma":{"t":"tornillo","r":5.0,"acabado":"azulado"},"variante":"tornillo_puente_volante","sobre":"puente_volante","tornillo":{"cabeza_mm":1.2,"giros":2.0,"rosca":"derecha"},"nombre":"Tornillo del puente de volante","paso":20},
+    {"id":"rueda_reduccion","tipo":"rueda_reduccion","lado":"reverso","x":-12,"y":-54,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":2,"forma":{"t":"rueda","r":14,"dientes":40,"brazos":5,"mat":"laton","pinon":6},"paso":21},
+    {"id":"rueda_inversora_1","tipo":"rueda_inversora","lado":"reverso","x":16,"y":-26,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":2,"forma":{"t":"rueda","r":11,"dientes":32,"brazos":0,"mat":"rojo","estilo":"inversora"},"variante":"rueda_inversora","paso":22},
+    {"id":"rueda_inversora_2","tipo":"rueda_inversora","lado":"reverso","x":-8,"y":-30,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":2,"forma":{"t":"rueda","r":11,"dientes":32,"brazos":0,"mat":"rojo","estilo":"inversora"},"variante":"rueda_inversora","paso":22},
+    {"id":"puente_automatico","tipo":"puente_automatico","lado":"reverso","x":-0.4,"y":-30.2,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":4,"forma":{"t":"puente","poly":[[-22.6,-23.8],[-20.0,-30.8],[-13.5,-34.6],[-6.1,-33.3],[24.8,-2.8],[27.4,4.2],[24.8,11.3],[6.4,32.6],[-1.7,34.1],[-8.8,30.0],[-17.9,4.0]],"mat":"rodio","deco":"cotes","rubies":[[-11.6,-23.8],[16.4,4.2],[-7.6,0.2]],"agujeros":[[-15.4,-11.7],[9.7,-7.3],[0.8,-18.6]]},"cubre":["rueda_reduccion","rueda_inversora_1","rueda_inversora_2"],"paso":23},
+    {"id":"puente_automatico_t1","tipo":"tornillo","lado":"reverso","x":-15.8,"y":-41.9,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":5,"forma":{"t":"tornillo","r":5.0,"acabado":"azulado"},"variante":"tornillo_puente_automatico","sobre":"puente_automatico","tornillo":{"cabeza_mm":1.2,"giros":2.5,"rosca":"derecha"},"nombre":"Tornillo del puente del automático","paso":24},
+    {"id":"puente_automatico_t2","tipo":"tornillo","lado":"reverso","x":9.3,"y":-37.5,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":5,"forma":{"t":"tornillo","r":5.0,"acabado":"azulado"},"variante":"tornillo_puente_automatico","sobre":"puente_automatico","tornillo":{"cabeza_mm":1.2,"giros":2.5,"rosca":"derecha"},"nombre":"Tornillo del puente del automático","paso":24},
+    {"id":"puente_automatico_t3","tipo":"tornillo","lado":"reverso","x":0.4,"y":-48.9,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":5,"forma":{"t":"tornillo","r":5.0,"acabado":"azulado"},"variante":"tornillo_puente_automatico","sobre":"puente_automatico","tornillo":{"cabeza_mm":1.2,"giros":2.5,"rosca":"derecha"},"nombre":"Tornillo del puente del automático","paso":24},
+    {"id":"rueda_minutos","tipo":"rueda_minutos","lado":"frente","x":-20,"y":16,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":2,"forma":{"t":"rueda","r":13,"dientes":30,"brazos":5,"mat":"laton","pinon":6},"paso":25},
+    {"id":"canon_minutos","tipo":"canon_minutos","lado":"frente","x":0.0,"y":0.0,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":1,"forma":{"t":"rueda","r":7,"dientes":12,"brazos":0,"mat":"acero","estilo":"pinon"},"paso":26},
+    {"id":"rueda_horas","tipo":"rueda_horas","lado":"frente","x":0.0,"y":0.0,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":3,"forma":{"t":"rueda","r":15,"dientes":36,"brazos":0,"mat":"laton"},"paso":27},
+    {"id":"rueda_motriz_fecha","tipo":"rueda_salto_instantaneo","lado":"frente","x":-24,"y":-24,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":3,"forma":{"t":"rueda","r":18.9,"dientes":48,"brazos":0,"mat":"laton","estilo":"con_dedo"},"paso":28},
+    {"id":"resorte_salto_instantaneo","tipo":"resorte_salto_instantaneo","lado":"frente","x":-50,"y":-28,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":4,"forma":{"t":"palanca","pts":[[0,0],[10,-8],[20,-8],[26,0]],"w":2,"mat":"acero","curva":true},"pinzas":true,"paso":29},
+    {"id":"corrector_fecha","tipo":"corrector_fecha","lado":"frente","x":54,"y":-30,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":3,"forma":{"t":"rueda","r":8,"dientes":16,"brazos":0,"mat":"acero"},"paso":30},
+    {"id":"disco_fecha","tipo":"disco_fecha","lado":"frente","x":0.0,"y":0.0,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":4,"forma":{"t":"disco","r_ext":94,"r_int":74,"marcas":31,"ventana_ang":90},"paso":31},
+    {"id":"salteador_fecha","tipo":"salteador_fecha","lado":"frente","x":60,"y":46,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":5,"forma":{"t":"palanca","pts":[[0,0],[-8,-6],[-18,-6],[-24,-2]],"w":2.5,"mat":"acero","curva":true},"pinzas":true,"paso":32},
+    {"id":"puente_calendario","tipo":"puente_calendario","lado":"frente","x":0.0,"y":0.0,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":7,"forma":{"t":"placa","poly":[[35.0,60.6],[18.1,67.6],[0.0,70.0],[-18.1,67.6],[-35.0,60.6],[-49.5,49.5],[-60.6,35.0],[-67.6,18.1],[-70.0,0.0],[-67.6,-18.1],[-60.6,-35.0],[-49.5,-49.5],[-35.0,-60.6],[-17.0,-29.4],[-24.0,-24.0],[-29.4,-17.0],[-32.8,-8.8],[-34.0,0.0],[-32.8,8.8],[-29.4,17.0],[-24.0,24.0],[-17.0,29.4],[-8.8,32.8],[0.0,34.0],[8.8,32.8],[17.0,29.4]],"mat":"acero","deco":"perlage","agujeros":[[10.4,59.1],[-56.4,20.5],[-38.6,-46.0]]},"paso":33},
+    {"id":"puente_calendario_t1","tipo":"tornillo","lado":"frente","x":10.4,"y":59.1,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":8,"forma":{"t":"tornillo","r":4.6,"acabado":"azulado"},"variante":"tornillo_puente_calendario","sobre":"puente_calendario","tornillo":{"cabeza_mm":1.0,"giros":2.0,"rosca":"derecha"},"nombre":"Tornillo de la placa del calendario","paso":34},
+    {"id":"puente_calendario_t2","tipo":"tornillo","lado":"frente","x":-56.4,"y":20.5,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":8,"forma":{"t":"tornillo","r":4.6,"acabado":"azulado"},"variante":"tornillo_puente_calendario","sobre":"puente_calendario","tornillo":{"cabeza_mm":1.0,"giros":2.0,"rosca":"derecha"},"nombre":"Tornillo de la placa del calendario","paso":34},
+    {"id":"puente_calendario_t3","tipo":"tornillo","lado":"frente","x":-38.6,"y":-46.0,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":8,"forma":{"t":"tornillo","r":4.6,"acabado":"azulado"},"variante":"tornillo_puente_calendario","sobre":"puente_calendario","tornillo":{"cabeza_mm":1.0,"giros":2.0,"rosca":"derecha"},"nombre":"Tornillo de la placa del calendario","paso":34},
+    {"id":"esfera","tipo":"esfera","lado":"frente","x":0.0,"y":0.0,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":8,"forma":{"t":"esfera","r":98,"estilo":"buceo_indices_generico","ventana":{"ang":90,"tipo":"fecha"}},"paso":35},
+    {"id":"esfera_t1","tipo":"tornillo","lado":"reverso","x":93.6,"y":16.5,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":9,"forma":{"t":"tornillo","r":4.2,"acabado":"azulado"},"variante":"tornillo_esfera","sobre":"esfera","tornillo":{"cabeza_mm":0.8,"giros":1.5,"rosca":"derecha"},"nombre":"Tornillo del pie de esfera","paso":36},
+    {"id":"esfera_t2","tipo":"tornillo","lado":"reverso","x":-93.6,"y":16.5,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":9,"forma":{"t":"tornillo","r":4.2,"acabado":"azulado"},"variante":"tornillo_esfera","sobre":"esfera","tornillo":{"cabeza_mm":0.8,"giros":1.5,"rosca":"derecha"},"nombre":"Tornillo del pie de esfera","paso":36},
+    {"id":"aguja_horas","tipo":"aguja_horas","lado":"frente","x":0.0,"y":0.0,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":9,"forma":{"t":"aguja","estilo":"flecha_luminiscente","largo":50},"paso":37},
+    {"id":"aguja_minutos","tipo":"aguja_minutos","lado":"frente","x":0.0,"y":0.0,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":10,"forma":{"t":"aguja","estilo":"espada_luminiscente","largo":78},"paso":38},
+    {"id":"segundero","tipo":"segundero","lado":"frente","x":0.0,"y":0.0,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":11,"forma":{"t":"aguja","estilo":"piruleta","largo":84},"paso":39},
+    {"id":"caja","tipo":"caja","lado":"frente","x":0.0,"y":0.0,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":10,"forma":{"t":"caja","r":116,"estilo":"hermetica","asas":true},"paso":40},
+    {"id":"tija_corona","tipo":"tija_corona","lado":"frente","x":100,"y":0.0,"rot":90,"rotImporta":true,"espejoImporta":true,"capa":10,"forma":{"t":"tija","largo":50,"corona":true},"paso":41},
+    {"id":"brida_encajado_1","tipo":"brida_encajado","lado":"reverso","x":72.8,"y":72.8,"rot":135.0,"rotImporta":true,"espejoImporta":true,"capa":10,"forma":{"t":"garra","largo":14},"paso":42},
+    {"id":"brida_encajado_2","tipo":"brida_encajado","lado":"reverso","x":-72.8,"y":-72.8,"rot":315.0,"rotImporta":true,"espejoImporta":true,"capa":10,"forma":{"t":"garra","largo":14},"paso":42},
+    {"id":"brida_encajado_1_t","tipo":"tornillo","lado":"reverso","x":68.6,"y":68.6,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":11,"forma":{"t":"tornillo","r":4.6,"acabado":"azulado"},"variante":"tornillo_brida_encajado_1","sobre":"brida_encajado_1","tornillo":{"cabeza_mm":1.0,"giros":2.0,"rosca":"derecha"},"nombre":"Tornillo de brida de encajado","paso":43},
+    {"id":"brida_encajado_2_t","tipo":"tornillo","lado":"reverso","x":-68.6,"y":-68.6,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":11,"forma":{"t":"tornillo","r":4.6,"acabado":"azulado"},"variante":"tornillo_brida_encajado_2","sobre":"brida_encajado_2","tornillo":{"cabeza_mm":1.0,"giros":2.0,"rosca":"derecha"},"nombre":"Tornillo de brida de encajado","paso":43},
+    {"id":"rotor","tipo":"rotor","lado":"reverso","x":0.0,"y":0.0,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":12,"forma":{"t":"rotor","r":92,"arco":180,"deco":"grabado"},"paso":44},
+    {"id":"rotor_t","tipo":"tornillo","lado":"reverso","x":0.0,"y":0.0,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":13,"forma":{"t":"tornillo","r":5.9,"acabado":"pulido"},"variante":"tornillo_rotor","sobre":"rotor","tornillo":{"cabeza_mm":1.6,"giros":2.0,"rosca":"derecha"},"nombre":"Tornillo del rotor","paso":45},
+    {"id":"junta","tipo":"junta","lado":"reverso","x":0.0,"y":0.0,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":13,"forma":{"t":"junta","r":106},"paso":46},
+    {"id":"fondo","tipo":"fondo","lado":"reverso","x":0.0,"y":0.0,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":14,"forma":{"t":"fondo","r":112,"cierre":"enroscado_hermetico"},"paso":47}
+  ]
+}

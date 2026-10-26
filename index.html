@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <!-- PLANTILLA: reemplaza este archivo por el index.html exportado desde Claude Design.
+       Conserva estas etiquetas del <head>: viewport, theme-color, manifest, íconos y el registro de sw.js. -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Maestro Relojero</title>
+  <meta name="description" content="Juego de restauración y armado de relojes mecánicos reales.">
+  <meta name="theme-color" content="#1f3b33">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Relojero">
+  <style>
+    :root { --tapete: #1f3b33; --tapete-osc: #14261f; --laton: #e3c27a; --texto: #f2eee4; --suave: #b9c4bd; }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; margin: 0; }
+    body {
+      background: radial-gradient(120% 90% at 50% 35%, #2b5246 0%, var(--tapete) 45%, var(--tapete-osc) 100%);
+      color: var(--texto);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      display: grid; place-items: center; text-align: center;
+      padding: max(24px, env(safe-area-inset-top)) 24px max(24px, env(safe-area-inset-bottom));
+      overscroll-behavior: none; -webkit-user-select: none; user-select: none;
+    }
+    main { max-width: 420px; }
+    .icono { width: min(56vw, 220px); height: auto; filter: drop-shadow(0 10px 18px rgba(0,0,0,.35)); }
+    h1 { font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif; font-weight: 600; font-size: clamp(28px, 8vw, 40px); margin: 24px 0 8px; letter-spacing: .5px; }
+    p { margin: 0 0 8px; color: var(--suave); line-height: 1.5; }
+    .nota { margin-top: 20px; font-size: 13px; opacity: .75; }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="icono" src="icons/icon.svg" alt="" width="220" height="220">
+    <h1>Maestro Relojero</h1>
+    <p>El taller se está preparando.</p>
+    <p class="nota">Esta página se reemplaza por el juego exportado desde Claude Design.</p>
+  </main>
+  <script>
+    // Registro del service worker: solo en https y sin romper vistas previas.
+    try {
+      if ('serviceWorker' in navigator && location.protocol === 'https:') {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register('./sw.js').catch(function () {});
+        });
+      }
+    } catch (e) {}
+  </script>
+</body>
+</html>

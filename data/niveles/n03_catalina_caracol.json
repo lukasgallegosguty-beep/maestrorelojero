@@ -1,0 +1,106 @@
+{
+  "id": "n03_catalina_caracol",
+  "orden": 3,
+  "dificultad": 3,
+  "titulo": "El inglés del remate",
+  "reloj": {
+    "nombre": "Reloj de bolsillo de doble caja con escape de catalina y caracol",
+    "tipo": "Bolsillo de llave, doble caja de plata",
+    "ilustracion": "Esquemática propia, inspirada en el tipo histórico"
+  },
+  "casa": "Taller londinense (tipo histórico, sin firma específica)",
+  "calibre": "Escape de catalina (verge) con caracol (fusee)",
+  "anio": 1780,
+  "epoca": "Siglo XVIII",
+  "specs": {
+    "diametro_mm_aprox": 38,
+    "frecuencia_ah": 17280,
+    "reserva_h": 30,
+    "cuerda": "Con llave, a través de la esfera",
+    "funciones": ["Horas","Minutos"],
+    "nota": "Valores típicos aproximados para la simulación: cada reloj de la época variaba según su tren."
+  },
+  "historia": "Antes del áncora suiza, los relojes de bolsillo usaban el escape de catalina y un caracol con cadena para igualar la fuerza del muelle. Las platinas se unían con pasadores, no con tornillos.",
+  "sabias_que": [
+    "El escape de catalina nació en los relojes de torre medievales y se usó en bolsillo durante siglos.",
+    "La cadena del caracol tiene cientos de eslabones remachados a mano: cortarla era un desastre."
+  ],
+  "cliente": {
+    "nombre": "Don Aurelio Contreras",
+    "perfil": "Anticuario del Persa Biobío, Santiago",
+    "pedido": "Lo compré en un remate. Dicen que es inglés del 1700. ¿Se puede hacer andar sin dañarlo?",
+    "plazo_dias": 6
+  },
+  "pago_base": 70000,
+  "reputacion": 8,
+  "memorice_s": 9,
+  "prob_espejo": 0.15,
+  "rot_spawn_max": 180,
+  "orientacion": {
+    "colgante": 12,
+    "agujero_cuerda": "esfera"
+  },
+  "preensamblado": [
+    "Platina de pilares (con sus cuatro pilares)"
+  ],
+  "mecanicas_nuevas": [
+    "pasadores",
+    "cadena_caracol",
+    "llave_cuerda",
+    "esfera_esmalte"
+  ],
+  "herramientas_requeridas": [
+    "llave_cuerda"
+  ],
+  "defectos": [
+    "cadena_oxidada",
+    "esmalte_pelo",
+    "cristal_vidrio_roto"
+  ],
+  "fuentes": [],
+  "total_piezas": 36,
+  "total_pasos": 32,
+  "tiempo_objetivo_s": 1020,
+  "lados_usados": [
+    "frente",
+    "reverso"
+  ],
+  "secuencia": [
+    {"id":"barrilete","tipo":"barrilete_caracol","lado":"reverso","x":-40,"y":22,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":1,"forma":{"t":"rueda","r":28,"dientes":0,"brazos":0,"mat":"laton","estilo":"tambor"},"paso":1},
+    {"id":"caracol","tipo":"caracol","lado":"reverso","x":30,"y":32,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":1,"forma":{"t":"caracol","r_cono":22,"r_rueda":37.9,"dientes":72},"paso":2},
+    {"id":"rueda_centro","tipo":"rueda_centro","lado":"reverso","x":0.0,"y":0.0,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":2,"forma":{"t":"rueda","r":26.6,"dientes":72,"brazos":5,"mat":"laton","pinon":6},"paso":3},
+    {"id":"tercera_rueda","tipo":"tercera_rueda","lado":"reverso","x":-24,"y":-22,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":2,"forma":{"t":"rueda","r":27.6,"dientes":60,"brazos":5,"mat":"laton","pinon":6},"paso":4},
+    {"id":"rueda_contrapunto","tipo":"rueda_contrapunto","lado":"reverso","x":-2,"y":-46,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":2,"forma":{"t":"rueda","r":18,"dientes":48,"brazos":5,"mat":"laton","pinon":5,"estilo":"contrapunto"},"paso":5},
+    {"id":"rueda_catalina","tipo":"rueda_catalina","lado":"reverso","x":30,"y":-40,"rot":90,"rotImporta":true,"espejoImporta":true,"capa":3,"forma":{"t":"catalina","largo":34,"alto":8,"dientes":15},"paso":6},
+    {"id":"contrapotenza","tipo":"contrapotenza","lado":"reverso","x":52,"y":-40,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":3,"forma":{"t":"bloque","w":10,"h":14},"paso":7},
+    {"id":"contrapotenza_t","tipo":"tornillo","lado":"reverso","x":52,"y":-46,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":4,"forma":{"t":"tornillo","r":4.6,"acabado":"azulado"},"variante":"tornillo_contrapotenza","sobre":"contrapotenza","tornillo":{"cabeza_mm":1.0,"giros":2.0,"rosca":"derecha"},"nombre":"Tornillo de la contrapotenza","paso":8},
+    {"id":"tope_caracol","tipo":"tope_caracol","lado":"reverso","x":54,"y":18,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":3,"forma":{"t":"palanca","pts":[[0,0],[-10,4],[-16,10]],"w":4,"mat":"acero"},"paso":9},
+    {"id":"platina_superior","tipo":"platina_superior","lado":"reverso","x":0.0,"y":0.0,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":5,"forma":{"t":"platina_superior","r":92,"pilares":[[55.3,-65.9],[55.3,65.9],[-55.3,65.9],[-55.3,-65.9]],"calados":true},"paso":10},
+    {"id":"pasador_pilar_1","tipo":"pasador","lado":"reverso","x":55.3,"y":-65.9,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":6,"forma":{"t":"pasador","r":2.6},"variante":"pasador_pilar","nombre":"Pasador de pilar","paso":11},
+    {"id":"pasador_pilar_2","tipo":"pasador","lado":"reverso","x":55.3,"y":65.9,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":6,"forma":{"t":"pasador","r":2.6},"variante":"pasador_pilar","nombre":"Pasador de pilar","paso":11},
+    {"id":"pasador_pilar_3","tipo":"pasador","lado":"reverso","x":-55.3,"y":65.9,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":6,"forma":{"t":"pasador","r":2.6},"variante":"pasador_pilar","nombre":"Pasador de pilar","paso":11},
+    {"id":"pasador_pilar_4","tipo":"pasador","lado":"reverso","x":-55.3,"y":-65.9,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":6,"forma":{"t":"pasador","r":2.6},"variante":"pasador_pilar","nombre":"Pasador de pilar","paso":11},
+    {"id":"cadena_caracol","tipo":"cadena_caracol","lado":"reverso","x":-5.0,"y":41.0,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":6,"forma":{"t":"cadena","desde":[-35.0,-19.0],"hasta":[35.0,-9.0],"r_desde":28,"r_hasta":20},"paso":12},
+    {"id":"rochete_armado","tipo":"rochete_armado","lado":"reverso","x":-40,"y":22,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":7,"forma":{"t":"rueda","r":12,"dientes":30,"brazos":0,"mat":"acero"},"paso":13},
+    {"id":"trinquete_armado","tipo":"trinquete_armado","lado":"reverso","x":-26,"y":10,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":7,"forma":{"t":"palanca","pts":[[0,0],[-6,-6],[-10,-4]],"w":3,"mat":"acero"},"paso":14},
+    {"id":"resorte_trinquete_armado","tipo":"resorte_trinquete_armado","lado":"reverso","x":-20,"y":2,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":8,"forma":{"t":"palanca","pts":[[0,0],[6,-4],[12,0]],"w":2,"mat":"acero","curva":true},"pinzas":true,"paso":15},
+    {"id":"trinquete_armado_t","tipo":"tornillo","lado":"reverso","x":-26,"y":10,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":9,"forma":{"t":"tornillo","r":4.6,"acabado":"azulado"},"variante":"tornillo_trinquete_armado","sobre":"trinquete_armado","tornillo":{"cabeza_mm":1.0,"giros":2.0,"rosca":"derecha"},"nombre":"Tornillo del trinquete de armado","paso":16},
+    {"id":"volante_vara","tipo":"volante_vara","lado":"reverso","x":30,"y":-52,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":8,"forma":{"t":"volante","r":32,"brazos":3,"espiral":"plana","mat":"acero"},"paso":17},
+    {"id":"puente_volante_calado","tipo":"puente_volante_calado","lado":"reverso","x":19.8,"y":-62.9,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":9,"forma":{"t":"puente","poly":[[-29.8,-21.1],[-29.2,-24.5],[-27.5,-27.5],[-24.8,-29.8],[-21.5,-31.0],[-18.1,-31.0],[-14.8,-29.8],[19.2,-4.7],[24.0,-0.7],[27.1,4.7],[28.2,10.9],[27.1,17.1],[24.0,22.5],[19.2,26.5],[13.3,28.6],[7.1,28.6],[1.2,26.5],[-3.6,22.5],[-27.5,-14.7],[-29.2,-17.7]],"mat":"oro","deco":"calado","rubies":[[10.2,10.9]],"agujeros":[[-19.8,-21.1]]},"paso":18},
+    {"id":"puente_volante_calado_t","tipo":"tornillo","lado":"reverso","x":0.0,"y":-84,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":10,"forma":{"t":"tornillo","r":5.5,"acabado":"azulado"},"variante":"tornillo_puente_volante_calado","sobre":"puente_volante_calado","tornillo":{"cabeza_mm":1.4,"giros":2.0,"rosca":"derecha"},"nombre":"Tornillo del puente de volante","paso":19},
+    {"id":"regulador_tompion","tipo":"regulador_tompion","lado":"reverso","x":-44,"y":-40,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":9,"forma":{"t":"disco_reglaje","r":14},"paso":20},
+    {"id":"regulador_tompion_t","tipo":"tornillo","lado":"reverso","x":-44,"y":-40,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":10,"forma":{"t":"tornillo","r":4.6,"acabado":"azulado"},"variante":"tornillo_regulador_tompion","sobre":"regulador_tompion","tornillo":{"cabeza_mm":1.0,"giros":2.0,"rosca":"derecha"},"nombre":"Tornillo del regulador","paso":21},
+    {"id":"canon_minutos","tipo":"canon_minutos","lado":"frente","x":0.0,"y":0.0,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":1,"forma":{"t":"rueda","r":7,"dientes":12,"brazos":0,"mat":"acero","estilo":"pinon"},"paso":22},
+    {"id":"rueda_minutos","tipo":"rueda_minutos","lado":"frente","x":-24,"y":14,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":2,"forma":{"t":"rueda","r":16,"dientes":36,"brazos":5,"mat":"laton","pinon":7},"paso":23},
+    {"id":"rueda_horas","tipo":"rueda_horas","lado":"frente","x":0.0,"y":0.0,"rot":0.0,"rotImporta":false,"espejoImporta":true,"capa":3,"forma":{"t":"rueda","r":15,"dientes":36,"brazos":0,"mat":"laton"},"paso":24},
+    {"id":"esfera","tipo":"esfera_esmalte","lado":"frente","x":0.0,"y":0.0,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":5,"forma":{"t":"esfera","r":96,"estilo":"esmalte_romano","agujero_cuerda":[-30,32]},"paso":25},
+    {"id":"pasador_esfera_1","tipo":"pasador","lado":"frente","x":91.6,"y":16.1,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":6,"forma":{"t":"pasador","r":2.2},"variante":"pasador_esfera","nombre":"Pasador del pie de esfera","paso":26},
+    {"id":"pasador_esfera_2","tipo":"pasador","lado":"frente","x":-91.6,"y":16.1,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":6,"forma":{"t":"pasador","r":2.2},"variante":"pasador_esfera","nombre":"Pasador del pie de esfera","paso":26},
+    {"id":"aguja_horas","tipo":"aguja_horas","lado":"frente","x":0.0,"y":0.0,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":7,"forma":{"t":"aguja","estilo":"escarabajo","largo":48},"paso":27},
+    {"id":"aguja_minutos","tipo":"aguja_minutos","lado":"frente","x":0.0,"y":0.0,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":8,"forma":{"t":"aguja","estilo":"poker","largo":74},"paso":28},
+    {"id":"caja_interior","tipo":"caja_interior","lado":"frente","x":0.0,"y":0.0,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":10,"forma":{"t":"caja","r":112,"estilo":"bolsillo_antiguo","colgante":true},"paso":29},
+    {"id":"cristal","tipo":"cristal","lado":"frente","x":0.0,"y":0.0,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":11,"forma":{"t":"cristal","r":102,"material":"vidrio","abombado":true},"paso":30},
+    {"id":"bisel","tipo":"bisel","lado":"frente","x":0.0,"y":0.0,"rot":0.0,"rotImporta":false,"espejoImporta":false,"capa":12,"forma":{"t":"bisel","r":112},"paso":31},
+    {"id":"caja_exterior","tipo":"caja_exterior","lado":"reverso","x":0.0,"y":0.0,"rot":0.0,"rotImporta":true,"espejoImporta":true,"capa":13,"forma":{"t":"caja","r":122,"estilo":"doble_exterior"},"paso":32}
+  ]
+}
